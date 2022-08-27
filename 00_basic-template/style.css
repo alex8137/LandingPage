@@ -104,10 +104,44 @@ p{
 }
 
 
+/* Body2 */
+
 .body2{
   margin:0;
-  border:1px solid red;
+  padding:50px;
+  /* border:1px solid red; */
+  display:flex;
+  gap:20px;
+  flex-direction: column;
 }
+
+.body2 .infosheader{
+  /* border:1px solid green; */
+  margin-bottom:30px;
+  text-align:center;
+  font-size:36px;
+  font-weight:900;
+  color: #1F2937;
+}
+
+.body2 .infos{
+  display:flex;
+  /* border:1px solid green; */
+  justify-content:center;
+  gap:30px;
+
+}
+
+.body2 .infos img{
+  height:160px;
+}
+
+.body2 .infos .info{
+  text-align:center;
+}
+
+
+
 
 .body3{
   margin:0;
