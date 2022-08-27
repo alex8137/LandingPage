@@ -167,14 +167,40 @@ p{
 }
 
 
+/* Body4 */
 
 .body4{
-  margin:0;
-  border:1px solid red;
+  margin:50px;
+  padding:50px 100px;
+  /* border:1px solid red; */
+  background-color: #3882F6;
+  color: white;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.body4 .title{
+  font-size:30px;
+  font-weight:600;
+}
+
+.body4 button{
+  background-color: #3882F6;
+  color: white;
+  font-size:24px;
+  border: 2px solid white;
+  padding: 5px 40px;
+}
+
+
 .footer{
+  display:flex;
   background-color:#1F2937;
   margin:0;
-  border:1px solid red;
+  height:50px;
+  /* border:1px solid red; */
+  color:white;
+  justify-content:center;
+  align-items: center;
 }
