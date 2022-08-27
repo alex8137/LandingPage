@@ -141,12 +141,32 @@ p{
 }
 
 
-
+/* Body3 */
 
 .body3{
   margin:0;
-  border:1px solid red;
+  padding:50px;
+  /* border:1px solid red; */
+  background-color:#E5E7EB;
 }
+
+.body3 .words{
+  /* border:1px solid green; */
+  font-size:36px;
+  font-style:italic;
+  color:#1F2937;
+  margin:0 100px;
+}
+
+.body3 .person{
+  /* border:1px solid green; */
+  font-size:30px;
+  font-weight:700;
+  text-align:end;
+  margin: 10px 100px 0;
+}
+
+
 
 .body4{
   margin:0;
